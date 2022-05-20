@@ -22,10 +22,10 @@
     "prefix": ["useLayoutEffect", "layouteffect"],
     "body": [
       "useLayoutEffect(() => {",
-      "  ${1:first}",
+      "  ${3:first}",
       "",
       "  ${2:return () => }",
-      "}, [${3:deps}])",
+      "}, [${1:deps}])",
       ""
     ],
     "description": "React useLayoutEffect"
