@@ -1,7 +1,7 @@
 {
   "name": "react-snippets-simplified",
-  "displayName": "A collection of snippets without the bloat - Snippets for regular use",
-  "description": "",
+  "displayName": "React snippets: Simplified",
+  "description": "A collection of snippets without the bloat - Snippets for regular use",
   "version": "0.5.0",
   "publisher": "kenajoh",
   "repository": {
