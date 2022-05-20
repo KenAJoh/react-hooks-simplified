@@ -24,7 +24,7 @@ Made for daily use when developing react-applications.
 
 ## Exmplanation
 
-### useEffect
+### **useEffect**
 
 ```javascript
 useEffect(() => {
@@ -33,7 +33,7 @@ useEffect(() => {
 }, [])
 ```
 
-### useLayoutEffect
+### **useLayoutEffect**
 
 ```javascript
 useLayoutEffect(() => {
@@ -42,7 +42,7 @@ useLayoutEffect(() => {
 }, [])
 ```
 
-### useState
+### **useState**
 
 ```typescript
 // JS
@@ -52,7 +52,7 @@ const [state, setState] = useState();
 const [state, setState] = useState<type>();
 ```
 
-### useCallback
+### **useCallback**
 
 ```javascript
 const callback = useCallback(() => {
@@ -60,7 +60,7 @@ const callback = useCallback(() => {
 }, [a]);
 ```
 
-### useContext
+### **useContext**
 
 ```typescript
 // JS
@@ -70,7 +70,7 @@ const context = useContext(ctx);
 const context = useContext<type>(ctx);
 ```
 
-### useMemo
+### **useMemo**
 
 ```typescript
 // JS
@@ -80,7 +80,7 @@ const value = useMemo(() => calc(a), [a]);
 const value: type = useMemo(() => calc(a), [a]);
 ```
 
-### useRef
+### **useRef**
 
 ```typescript
 // JS
@@ -90,13 +90,15 @@ const ref = useRef(null);
 const ref = useRef<type>(null);
 ```
 
-### useTransition
+### **useTransition**
 
 ```javascript
 const [isPending, startTransition] = useTransition();
 ```
 
-### useEvent
+### **useEvent**
+
+Not used often, but when needed its a pain to boilerplate.
 
 ```typescript
 const callback = useCallback(() => {
@@ -112,20 +114,18 @@ useEffect(() => {
 }, [callback]);
 ```
 
-Not used often, but when needed its a pain to boilerplate each time.
+### **cla**
 
-### cla
+For the extra lazy (like me)
 
 ```javascript
 className = "";
 ```
 
-For the extra lazy (like me)
+### **cl**
 
-### cl
+Logs output in object format
 
 ```javascript
 console.log({ value });
 ```
-
-Logs output in object format
