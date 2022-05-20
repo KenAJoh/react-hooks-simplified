@@ -116,8 +116,8 @@ useEffect(() => {
 
 For the extra lazy (like me)
 
-```javascript
-className = "";
+```css
+className = ""
 ```
 
 ### **cl**

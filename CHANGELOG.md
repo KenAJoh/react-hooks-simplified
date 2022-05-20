@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.9.0] - 20-05-2022
+
+- Readme update
+
 ## [0.8.0] - 20-05-2022
 
 - Readme update
