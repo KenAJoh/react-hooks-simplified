@@ -15,5 +15,45 @@
       ""
     ],
     "description": "React useEffect"
+  },
+  "useLayoutEffect": {
+    "prefix": ["useLayoutEffect", "layouteffect"],
+    "body": [
+      "useLayoutEffect(() => {",
+      "  ${1:first}",
+      "",
+      "  ${2:return () => }",
+      "}, [${3:deps}])",
+      ""
+    ],
+    "description": "React useLayoutEffect"
+  },
+  "useCallback": {
+    "prefix": ["useCallback", "callback", "cb"],
+    "body": [
+      "const ${1:name} = useCallback(",
+      "  () => {",
+      "    ${2}",
+      "  },",
+      "  [${3:deps}],",
+      ")",
+      ""
+    ],
+    "description": "React useCallback"
+  },
+  "useContext": {
+    "prefix": ["useContext", "context", "ctx"],
+    "body": ["const ${1:name} = useContext(${2:ctx})"],
+    "description": "React useContext"
+  },
+  "useMemo": {
+    "prefix": ["useMemo", "memo"],
+    "body": ["const ${1:name} = useMemo(() => ${2:val}, [${3:deps}])"],
+    "description": "React useMemo"
+  },
+  "useRef": {
+    "prefix": ["useRef", "ref"],
+    "body": ["const ${1:name} = useRef(${2:default})"],
+    "description": "React useRef"
   }
 }
