@@ -55,5 +55,40 @@
     "prefix": ["useRef", "ref"],
     "body": ["const ${1:name} = useRef(${2:default})"],
     "description": "React useRef"
+  },
+  "cla": {
+    "prefix": ["className", "class"],
+    "body": ["className=${1:\"\"}"],
+    "description": "React className shortcut"
+  },
+  "useEvent": {
+    "prefix": ["useEvent", "event"],
+    "body": [
+      "const ${2:callback} = useCallback(",
+      "  () => {",
+      "    ${4}",
+      "  },",
+      "  [${3:deps}],",
+      ");",
+      "",
+      "useEffect(() => {",
+      "  window.addEventListener(${1:event}, ${2:callback});",
+      "",
+      "  return () => {",
+      "    window.removeEventListener(${1:event}, ${2:callback});",
+      "  };",
+      "}, [${2:callback}]);"
+    ],
+    "description": "React event snippet with callback"
+  },
+  "cl": {
+    "prefix": ["console.log", "log", "console"],
+    "body": ["console.log(\\{${$1: value}\\})"],
+    "description": "Better console.log snippet"
+  },
+  "useTransition": {
+    "prefix": ["useTransition", "transition"],
+    "body": ["const [isPending, startTransition] = useTransition();"],
+    "description": "React useTransition"
   }
 }
