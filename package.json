@@ -1,20 +1,33 @@
 {
-    "name": "react-hooks-simplified",
-    "displayName": "React Hooks simplified",
-    "description": "Why add many when few do trick?",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.67.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "\"javascript\", \"typescript\"",
-                "path": "./snippets/snippets.code-snippets"
-            }
-        ]
-    }
+  "name": "react-hooks-simplified",
+  "displayName": "React Hooks simplified",
+  "description": "Why add many when few do trick?",
+  "version": "0.0.1",
+  "publisher": "kenajoh",
+  "engines": {
+    "vscode": "^1.67.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets-js.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets-js.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets-ts.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets-ts.code-snippets"
+      }
+    ]
+  }
 }
