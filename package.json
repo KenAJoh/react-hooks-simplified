@@ -6,11 +6,29 @@
   "publisher": "kenajoh",
   "repository": "https://github.com/KenAJoh/react-snippets-simplified",
   "engines": {
-    "vscode": "^1.67.0"
+    "vscode": "^1.60.0"
   },
+  "keywords": [
+    "snippets",
+    "react",
+    "javascript",
+    "typescript",
+    "hooks",
+    "simple"
+  ],
   "categories": [
     "Snippets"
   ],
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "capabilities": {
+    "virtualWorkspaces": true,
+    "untrustedWorkspaces": {
+      "supported": true
+    }
+  },
   "contributes": {
     "snippets": [
       {
