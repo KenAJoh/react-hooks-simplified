@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.7.0] - 20-05-2022
+
+- Readme update
+
 ## [0.6.0] - 20-05-2022
 
 - Manifest update
