@@ -1,12 +1,23 @@
 {
   "name": "react-snippets-simplified",
-  "displayName": "React Snippets simplified",
-  "description": "Why add many when few do trick?",
+  "displayName": "A collection of snippets without the bloat - Snippets for regular use",
+  "description": "",
   "version": "0.4.0",
   "publisher": "kenajoh",
-  "repository": "https://github.com/KenAJoh/react-snippets-simplified",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KenAJoh/react-snippets-simplified"
+  },
+  "author": {
+    "name": "Ken"
+  },
+  "homepage": "https://github.com/KenAJoh/react-snippets-simplified/blob/main/README.md",
   "engines": {
     "vscode": "^1.60.0"
+  },
+  "galleryBanner": {
+    "color": "#121f2e",
+    "theme": "dark"
   },
   "keywords": [
     "snippets",
@@ -29,6 +40,7 @@
       "supported": true
     }
   },
+  "icon": "images/logo.png",
   "contributes": {
     "snippets": [
       {
@@ -48,5 +60,6 @@
         "path": "./snippets/snippets-ts.code-snippets"
       }
     ]
-  }
+  },
+  "license": "SEE LICENSE IN LICENSE"
 }
