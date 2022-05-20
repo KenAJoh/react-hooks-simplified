@@ -8,10 +8,10 @@
     "prefix": ["useEffect", "effect"],
     "body": [
       "useEffect(() => {",
-      "  ${1:first}",
+      "  ${3:first}",
       "",
-      "  ${2:return () => }",
-      "}, [${3:deps}])",
+      "  ${1:return () => }",
+      "}, [${2:deps}])",
       ""
     ],
     "description": "React useEffect"
@@ -33,9 +33,9 @@
     "body": [
       "const ${1:name} = useCallback(",
       "  () => {",
-      "    ${2}",
+      "    ${3}",
       "  },",
-      "  [${3:deps}],",
+      "  [${2:deps}],",
       ")",
       ""
     ],
@@ -48,7 +48,7 @@
   },
   "useMemo": {
     "prefix": ["useMemo", "memo"],
-    "body": ["const ${1:name} = useMemo(() => ${2:val}, [${3:deps}])"],
+    "body": ["const ${1:name} = useMemo(() => ${3:val}, [${2:deps}])"],
     "description": "React useMemo"
   },
   "useRef": {
