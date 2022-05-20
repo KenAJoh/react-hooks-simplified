@@ -2,8 +2,6 @@
 
 A collection of snippets without the bloat.
 
-## Features
-
 Made for daily use when developing react-applications.
 
 ## Snippets
@@ -22,7 +20,7 @@ Made for daily use when developing react-applications.
 | `cla`             | className         |
 | `cl`              | console.log       |
 
-## Exmplanation
+## Description
 
 ### **useEffect**
 
