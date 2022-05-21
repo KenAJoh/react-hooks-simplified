@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.1] - 21-05-2022
+
+- Readme update
+
 ## [1.0.0] - 21-05-2022
 
 - Major release
