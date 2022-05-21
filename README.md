@@ -1,6 +1,6 @@
 # React-snippets: simplified
 
-A collection of snippets without the bloat.
+A collection of snippets without the redux/native bloat.
 
 Made for daily use when developing react-applications.
 
