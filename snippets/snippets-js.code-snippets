@@ -8,10 +8,10 @@
     "prefix": ["useEffect", "effect"],
     "body": [
       "useEffect(() => {",
-      "  ${3:first}",
+      "  ${1:first}",
       "",
-      "  ${1:return () => }",
-      "}, [${2:deps}])",
+      "  ${2:return () => }",
+      "}, [${3:deps}])",
       ""
     ],
     "description": "React useEffect"
@@ -20,10 +20,10 @@
     "prefix": ["useLayoutEffect", "layouteffect"],
     "body": [
       "useLayoutEffect(() => {",
-      "  ${3:first}",
+      "  ${1:first}",
       "",
       "  ${2:return () => }",
-      "}, [${1:deps}])",
+      "}, [${3:deps}])",
       ""
     ],
     "description": "React useLayoutEffect"
@@ -33,9 +33,9 @@
     "body": [
       "const ${1:name} = useCallback(",
       "  () => {",
-      "    ${3}",
+      "    ${2}",
       "  },",
-      "  [${2:deps}],",
+      "  [${3:deps}],",
       ")",
       ""
     ],
@@ -48,7 +48,7 @@
   },
   "useMemo": {
     "prefix": ["useMemo", "memo"],
-    "body": ["const ${1:name} = useMemo(() => ${3:val}, [${2:deps}])"],
+    "body": ["const ${1:name} = useMemo(() => ${2:val}, [${3:deps}])"],
     "description": "React useMemo"
   },
   "useRef": {
@@ -58,7 +58,7 @@
   },
   "cla": {
     "prefix": ["className", "class"],
-    "body": ["className=${1:\"\"}"],
+    "body": ["className=\"${1}\""],
     "description": "React className shortcut"
   },
   "useEvent": {
@@ -83,7 +83,7 @@
   },
   "cl": {
     "prefix": ["console.log", "log", "console"],
-    "body": ["console.log(\\{${$1: value}\\})"],
+    "body": ["console.log(\\{${1: value}\\})"],
     "description": "Better console.log snippet"
   },
   "useTransition": {
