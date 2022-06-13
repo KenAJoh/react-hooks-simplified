@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.3] - 13-06-2022
+
+- Tuned snippets for better use
+
 ## [1.0.1] - 21-05-2022
 
 - Readme update
